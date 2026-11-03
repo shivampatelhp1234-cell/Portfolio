@@ -124,6 +124,7 @@
         checkProgress();
       };
       firstImg.onerror = () => {
+        loadedCount++;
         checkProgress();
       };
 
